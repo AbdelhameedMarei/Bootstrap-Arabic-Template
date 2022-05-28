@@ -1,0 +1,39 @@
+.breadcrumb{
+    margin: 0;
+    justify-content: flex-end;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+}
+
+.breadcrumb-item a{
+    text-decoration: none;
+}
+
+.blog .jumbotron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--main-color);
+}
+
+.blog-details{
+    width: 55%;
+}
+
+.blog-details h4{
+    font-size: 20px;
+}
+
+.blog-img{
+    width: 40%
+}
+
+.blog-img img{
+    width: 250px;
+}
+
+.star-title{
+    text-align: center;
+}
