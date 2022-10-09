@@ -277,7 +277,7 @@ ul{
 }
 
 /* Responsive items by Media Query  */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .home{
         height: 400px;
     }
@@ -287,7 +287,7 @@ ul{
         text-align: center;
     }
     .subscribe-item .form button{
-        width: 40%;
+        width: 55%;
     }
 
     .last-footer {
